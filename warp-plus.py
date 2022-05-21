@@ -68,7 +68,7 @@ while True:
 		print(f"\n[•] WARP+ ID: {referrer}")
 		print(f"[✓] Added: {g} GB")
 		print(f"[#] Total: {g} Good {b} Bad")
-		for i in range(20,-1,-1):
+		for i in range(150,-1,-1):
 			sys.stdout.write(f"\033[1K\r[!] Cooldown: {i} seconds")
 			sys.stdout.flush()
 			time.sleep(1)
